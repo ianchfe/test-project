@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+    <title>Категория товаров</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+<h1 class="visually-hidden">Тестовое задание</h1>
+<header class="header">
+    <div class="header__container">
+        <button class="header__logo">
+            <span class="logo__text">лого</span>
+        </button>
+        <div class="info__container">
+            <a class="header__phone" href="tel:+78129444490">
+                <span class="phone__small">+7 (812)</span> <span class="phone__large">944-4490</span>
+            </a>
+            <div class="header__cart">
+                <span class="icon"></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <nav class="breadcrumbs">
+        <a href="#" class="breadcrumbs__item">Главная</a> /
+        <a href="#" class="breadcrumbs__item">Меню</a> /
+        <span class="breadcrumbs__item breadcrumbs__item--current">Категория товаров</span>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    </nav>
+
+    <div class="title__container">
+        <h2 class="category__title">Название категории</h2>
+    </div>
+
+    <section class="products">
+        <article class="product">
+            <img src="/assets/img/chebu.png" alt="Товар 2" class="product__image" />
+            <div class="product__content">
+                <div class="product__description__container">
+                    <h3 class="product__title">Товар 1</h3>
+                    <p class="product__description">Здесь будет описание товара. </br>У некоторых товаров описание может быть коротким, а у некоторых – длинным.</p>
+                </div>
+                <div class="product__options">
+                    <input type="radio" id="option-standard-1" name="product-option-1" class="product__radio" checked />
+                    <label for="option-standard-1" class="product__option">Стандарт</label>
+
+                    <input type="radio" id="option-double-1" name="product-option-1" class="product__radio" />
+                    <label for="option-double-1" class="product__option">Двойной</label>
+                </div>
+                <div class="product__footer">
+                    <span class="product__price">190 ₽</span>
+                    <button class="product__order">Заказать</button>
+                </div>
+            </div>
+        </article>
+
+
+        <article class="product">
+            <span class="product__mark"></span>
+            <img src="/assets/img/chebu.png" alt="Товар 2" class="product__image" />
+            <div class="product__content">
+                <div class="product__description__container">
+                    <h3 class="product__title">Товар 2</h3>
+                    <p class="product__description">Здесь будет описание товара. </br> У некоторых товаров описание может быть коротким, а у некоторых – длинным.</p>
+                </div>
+            <div class="product__options">
+                <input type="radio" id="option-standard-2" name="product-option-2" class="product__radio" checked />
+                <label for="option-standard-2" class="product__option">Стандарт</label>
+
+                <input type="radio" id="option-double-2" name="product-option-2" class="product__radio" />
+                <label for="option-double-2" class="product__option">Двойной</label>
+            </div>
+            <div class="product__footer">
+                <span class="product__price">190 ₽</span>
+                <button class="product__order">Заказать</button>
+            </div>
+            </div>
+        </article>
+
+        <article class="product">
+            <span class="product__mark"></span>
+            <img src="/assets/img/chebu.png" alt="Товар 3" class="product__image" />
+            <div class="product__content">
+                <div class="product__description__container">
+                    <h3 class="product__title">Товар 3</h3>
+                    <p class="product__description">Здесь будет описание товара. </br> У некоторых товаров описание может быть коротким, а у некоторых – длинным.</p>
+                </div>
+                <div class="product__options">
+                    <input type="radio" id="option-standard-3" name="product-option-3" class="product__radio" checked />
+                    <label for="option-standard-3" class="product__option">Стандарт</label>
+
+                    <input type="radio" id="option-double-3" name="product-option-3" class="product__radio" />
+                    <label for="option-double-3" class="product__option">Двойной</label>
+                </div>
+                <div class="product__footer">
+                    <span class="product__price">190 ₽</span>
+                    <button class="product__order">Заказать</button>
+                </div>
+            </div>
+        </article>
+
+        <article class="product">
+            <span class="product__mark"></span>
+            <img src="/assets/img/chebu.png" alt="Товар 4" class="product__image" />
+            <div class="product__content">
+                <div class="product__description__container">
+                    <h3 class="product__title">Товар 4</h3>
+                    <p class="product__description">Здесь будет описание товара. </br>У некоторых товаров описание может быть коротким, а у некоторых – длинным.</p>
+                </div>
+                <div class="product__options">
+                    <input type="radio" id="option-standard-4" name="product-option-4" class="product__radio" checked />
+                    <label for="option-standard-4" class="product__option">Стандарт</label>
+
+                    <input type="radio" id="option-double-4" name="product-option-4" class="product__radio" />
+                    <label for="option-double-4" class="product__option">Двойной</label>
+                </div>
+                <div class="product__footer">
+                    <span class="product__price">190 ₽</span>
+                    <button class="product__order">Заказать</button>
+                </div>
+            </div>
+        </article>
+    </section>
+</main>
+
+<footer class="footer">
+    <p class="footer__text">ПОДВАЛ САЙТА</p>
+</footer>
+</body>
+</html>
