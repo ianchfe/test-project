@@ -122,7 +122,7 @@ button {
 }
 .header__cart .icon {
   display: flex;
-  background-image: url("/assets/img/bag.svg");
+  background-image: url("./assets/img/bag.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #1d4e89;
@@ -192,7 +192,7 @@ button {
   position: absolute;
   height: 39px;
   width: 39px;
-  background-image: url("/assets/img/6.png");
+  background-image: url("./assets/img/6.png");
   top: 25px;
   right: 17px;
 }
